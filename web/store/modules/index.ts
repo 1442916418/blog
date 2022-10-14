@@ -1,20 +1,22 @@
-const indexStore = {
-  namespaced: true,
-  state: {
-    data: {}
-  },
-  mutations: {
-    setData (state, payload) {
-      state.data = payload.data
-    }
-  },
-  actions: {
-    initialData ({ commit }, { payload }) {
-      commit('setData', payload)
-    }
+const state = {
+  data: {}
+}
+
+const mutations = {
+  setData(state, payload) {
+    state.data = payload.data
   }
 }
 
-export {
-  indexStore
+const actions = {
+  initialData({ commit }, { payload }) {
+    commit('setData', payload)
+  }
+}
+
+export default {
+  namespaced: true,
+  state,
+  mutations,
+  actions
 }

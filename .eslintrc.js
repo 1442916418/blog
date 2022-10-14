@@ -1,8 +1,6 @@
 module.exports = {
   root: true,
-  extends: [
-    'standard-vue-ts'
-  ],
+  extends: [],
   parserOptions: {
     project: './tsconfig.json'
   },

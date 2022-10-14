@@ -1,12 +1,6 @@
-import { indexStore } from './modules/index'
-import { detailStore } from './modules/detail'
-import { searchStore } from './modules/search'
+import indexStore from './modules/index'
 
 const modules = {
-  indexStore,
-  detailStore,
-  searchStore
+  indexStore
 }
-export {
-  modules
-}
+export { modules }
