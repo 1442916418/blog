@@ -1,4 +1,4 @@
-# 个人博客
+# 个人博客  **废弃**
 
 > [SSR](http://doc.ssr-fc.com/)  
 > [RealWorld](https://realworld-docs.netlify.app/)  
